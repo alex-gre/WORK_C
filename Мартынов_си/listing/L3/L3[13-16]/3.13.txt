@@ -1,0 +1,20 @@
+int iArrayPos(int ar[], int size){
+int Max; /*int Max <--> int ar[]*/
+int i;
+int pos;
+
+Max=ar[0]; pos=0; //начинаем с нуля
+
+/* находим максимальный элемент и перемещаем его в конец массива*/
+
+for(i=1;i<size;i++){
+ if(ar[i] > Max){
+    
+    Max = ar[i];
+    pos = i;
+
+  }//enf if
+
+ }//end for
+  return pos;
+}end iArrayPos
