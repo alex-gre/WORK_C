@@ -1,1 +1,7 @@
-manc doc
+who --help
+man who
+man -k utmp
+man read
+man fork
+man system
+man printf
