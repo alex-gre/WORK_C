@@ -1,1 +1,6 @@
 starterkit robot avr
+
+1 - Установить Atmel Studio 7
+2 - Установить pololu-avr-bundle [выбрать Atmel Studio 7]
+3 - import avrstudio4 project or new pololu template
+4 - build project
