@@ -1,0 +1,3 @@
+avr-gcc -g -Wall -mcall-prologues -mmcu=atmega328p -Os -c -o BlinkLed.o BlinkLed.c
+avr-gcc -g -Wall -mcall-prologues -mmcu=atmega328p -Os BlinkLed.o -Wl,-gc-sections -Wl,-relax -o BlinkLed.obj
+avr-objcopy -R .eeprom -O ihex BlinkLed.obj BlinkLed.hex
