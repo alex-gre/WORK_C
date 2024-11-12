@@ -1,1 +1,2 @@
 https://github.com/flipperdevices/flipperzero-3d-models.git
+https://github.com/RogueMaster/flipperzero-firmware-wPlugins/releases
